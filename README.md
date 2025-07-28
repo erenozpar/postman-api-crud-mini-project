@@ -14,13 +14,13 @@ This mini project demonstrates **API testing** using [Postman](https://www.postm
 ---
 
 ## Test Scenarios
-# GET All Users
-# GET Single User
-# GET User Comments
-# GET Comments PostId
-# Create User
-# Update User
-# Delete User
+- GET All Users
+- GET User by Id
+- GET User Comments
+- GET Comments by PostId
+- Create User
+- Update User
+- Delete User
 
 
 ##  How to Run This Project
