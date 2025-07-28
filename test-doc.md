@@ -95,9 +95,9 @@ Expected Result:
 - Empty response body
 
 ## Test Tool
-Tool Used: Postman
+*Tool Used: Postman*
 
-Environment Variables:
+*Environment Variables:*
 
 ### baseUrl = https://jsonplaceholder.typicode.com
 
