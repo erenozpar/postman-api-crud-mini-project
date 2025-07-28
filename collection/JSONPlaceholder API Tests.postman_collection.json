@@ -17,7 +17,7 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"\r",
-							"pm.test(\"Response has 100 users\",function(){\r",
+							"pm.test(\"Response has 100 posts\",function(){\r",
 							"var jsonData = pm.response.json();\r",
 							"pm.expect(jsonData.length).to.eql(100);\r",
 							"});\r",
@@ -52,7 +52,7 @@
 			"response": []
 		},
 		{
-			"name": "GET Posts by Id",
+			"name": "GET Posts by userId",
 			"event": [
 				{
 					"listen": "test",
@@ -171,7 +171,7 @@
 			"response": []
 		},
 		{
-			"name": "GET Comments by PostId",
+			"name": "GET Comments by postId",
 			"event": [
 				{
 					"listen": "prerequest",
@@ -232,7 +232,7 @@
 			"response": []
 		},
 		{
-			"name": "Create Posts",
+			"name": "Create Post",
 			"event": [
 				{
 					"listen": "test",
