@@ -44,10 +44,15 @@ https://jsonplaceholder.typicode.com
   ```json
  {
  "userId": 101,
+ 
         "id": 101,
+        
         "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
+        
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
- }```json
+        
+ }```
+ 
 Expected Result:
 
 - Status Code: 201
