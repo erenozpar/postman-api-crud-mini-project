@@ -69,7 +69,8 @@ Endpoint: /posts/3
 Body:
 
 {
- "userId": 101,
+
+       "userId": 101,
  
         "id": 101,
         
