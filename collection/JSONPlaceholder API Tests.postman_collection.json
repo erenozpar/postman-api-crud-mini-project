@@ -22,12 +22,12 @@
 							"pm.expect(jsonData.length).to.eql(100);\r",
 							"});\r",
 							"\r",
-							"pm.test(\"Each user has id, title, body\",function(){\r",
-							"let users = pm.response.json();\r",
-							"users.forEach(function(user){\r",
-							"    pm.expect(user).to.have.property(\"id\");\r",
-							"    pm.expect(user).to.have.property(\"title\");\r",
-							"    pm.expect(user).to.have.property(\"body\");\r",
+							"pm.test(\"Each post has id, title, body\",function(){\r",
+							"let posts = pm.response.json();\r",
+							"posts.forEach(function(post){\r",
+							"    pm.expect(post).to.have.property(\"id\");\r",
+							"    pm.expect(post).to.have.property(\"title\");\r",
+							"    pm.expect(post).to.have.property(\"body\");\r",
 							"});\r",
 							"});"
 						],
@@ -62,12 +62,12 @@
 							"    pm.response.to.have.status(200);\r",
 							"});\r",
 							"\r",
-							"pm.test(\"User has id, title, body\", function(){\r",
-							"    let user = pm.response.json();\r",
+							"pm.test(\"Post has id, title, body\", function(){\r",
+							"    let post = pm.response.json();\r",
 							"   \r",
-							"    pm.expect(user).to.have.property(\"id\");\r",
-							"    pm.expect(user).to.have.property(\"title\");\r",
-							"    pm.expect(user).to.have.property(\"body\");\r",
+							"    pm.expect(post).to.have.property(\"id\");\r",
+							"    pm.expect(post).to.have.property(\"title\");\r",
+							"    pm.expect(post).to.have.property(\"body\");\r",
 							"})\r",
 							"\r",
 							"pm.test(\"User id is 1\", function(){\r",
@@ -319,7 +319,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"userId\": 101,\r\n        \"id\": 101,\r\n        \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit as Eren\",\r\n        \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n }",
+					"raw": "{\r\n \"userId\": 101,\r\n        \"id\": 101,\r\n        \"title\": \"Uptade Title\",\r\n        \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n }",
 					"options": {
 						"raw": {
 							"language": "json"
@@ -346,7 +346,19 @@
 					"listen": "prerequest",
 					"script": {
 						"exec": [
-							"pm.environment.set(\"userId\", \"1\"); // Set the userId environment variable to \"1\""
+							"pm.environment.set(\"userId\", \"8\"); // Set the userId environment variable to \"1\""
+						],
+						"type": "text/javascript",
+						"packages": {}
+					}
+				},
+				{
+					"listen": "test",
+					"script": {
+						"exec": [
+							"pm.test(\"Status code is 200\", function () {\r",
+							"    pm.response.to.have.status(200);\r",
+							"});"
 						],
 						"type": "text/javascript",
 						"packages": {}
@@ -361,7 +373,7 @@
 				"header": [],
 				"body": {
 					"mode": "raw",
-					"raw": "{\r\n \"userId\": 101,\r\n        \"id\": 101,\r\n        \"title\": \"sunt aut facere repellat provident occaecati excepturi optio reprehenderit as Eren\",\r\n        \"body\": \"quia et suscipit\\nsuscipit recusandae consequuntur expedita et cum\\nreprehenderit molestiae ut ut quas totam\\nnostrum rerum est autem sunt rem eveniet architecto\"\r\n }",
+					"raw": "",
 					"options": {
 						"raw": {
 							"language": "json"
