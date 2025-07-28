@@ -14,13 +14,13 @@ This mini project demonstrates **API testing** using [Postman](https://www.postm
 ---
 
 ## Test Scenarios
-### GET All Users
-### GET Single User
-### GET User Comments
-### GET Comments PostId
-### Create User
-### Update User
-### Delete User
+# GET All Users
+# GET Single User
+# GET User Comments
+# GET Comments PostId
+# Create User
+# Update User
+# Delete User
 
 
 ##  How to Run This Project
@@ -36,11 +36,14 @@ This mini project demonstrates **API testing** using [Postman](https://www.postm
 ## Project Structure
 
 postman-api-crud-mini-project/
-├── PostmanCollection.json
-├── PostmanEnvironment.json
-├── README.md
-└── test-doc.md # Optional documentation file
 
+├── PostmanCollection.json
+
+├── PostmanEnvironment.json
+
+├── README.md
+
+└── test-doc.md
 
 ---
 
