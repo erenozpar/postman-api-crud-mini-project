@@ -157,13 +157,13 @@
 				"method": "GET",
 				"header": [],
 				"url": {
-					"raw": "{{baseUrl}}/posts/{{userId}}/comments",
+					"raw": "{{baseUrl}}/posts/{{postId}}/comments",
 					"host": [
 						"{{baseUrl}}"
 					],
 					"path": [
 						"posts",
-						"{{userId}}",
+						"{{postId}}",
 						"comments"
 					]
 				}
