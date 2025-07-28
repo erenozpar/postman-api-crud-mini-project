@@ -18,7 +18,7 @@ This mini project demonstrates **API testing** using [Postman](https://www.postm
 ###### GET Posts by userId
 ###### GET Comments
 ###### GET Comments by postId
-###### Create Posts
+###### Create Post
 ###### Update Post
 ###### Delete Post by userId
 
