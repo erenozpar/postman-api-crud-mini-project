@@ -97,9 +97,8 @@ Expected Result:
 ## Test Tool
 *Tool Used: Postman*
 
-*Environment Variables:*
-
-### baseUrl = https://jsonplaceholder.typicode.com
+*Environment Variables:* 
+###### baseUrl = https://jsonplaceholder.typicode.com
 
 *!!!* Notes
 JSONPlaceholder is a fake API; data is not actually created/updated/deleted.
