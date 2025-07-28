@@ -47,7 +47,7 @@ https://jsonplaceholder.typicode.com
         "id": 101,
         "title": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
- }
+ }```
 Expected Result:
 
 - Status Code: 201
@@ -60,16 +60,13 @@ Request Type: PUT
 Endpoint: /posts/3
 
 Body:
-
-json
-Copy
-Edit
+```json
 {
  "userId": 101,
         "id": 101,
         "title": "Uptade Title",
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
- }
+ }```
 Expected Result:
 
 - Status Code: 200
