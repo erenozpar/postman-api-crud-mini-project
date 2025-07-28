@@ -52,7 +52,7 @@
 			"response": []
 		},
 		{
-			"name": "GET Single User",
+			"name": "GET User by Id",
 			"event": [
 				{
 					"listen": "test",
@@ -171,7 +171,7 @@
 			"response": []
 		},
 		{
-			"name": "GET Comments PostId",
+			"name": "GET Comments by PostId",
 			"event": [
 				{
 					"listen": "prerequest",
