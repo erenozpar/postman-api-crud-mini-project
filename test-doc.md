@@ -41,7 +41,7 @@ https://jsonplaceholder.typicode.com
 - **Request Type:** POST  
 - **Endpoint:** `/posts`  
 - **Body:**
-  ```json
+
  {
  
        "userId": 101,
@@ -52,7 +52,8 @@ https://jsonplaceholder.typicode.com
         
         "body": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto"
         
- }```
+ }
+ 
  
 Expected Result:
 
