@@ -28,7 +28,7 @@ https://jsonplaceholder.typicode.com
 
 - **Request Type:** GET  
 - **Endpoint:** `/posts/1`  
-- **Precondition:** User with ID `1` exists  
+- **Precondition:** Post with ID `1` exists  
 - **Expected Result:**
   - Status Code: `200`
   - Response includes correct field like id, title, body
